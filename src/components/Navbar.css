@@ -1,0 +1,24 @@
+.navbar-menu a {
+    color: black; /* Cor padrão dos links */
+    text-decoration: none; /* Remove o sublinhado */
+    font-weight: bold;
+    padding: 10px 15px; /* Espaço interno para aparência de botão */
+    border-radius: 5px; /* Bordas arredondadas */
+    transition: background 0.3s, color 0.3s; /* Transições suaves */
+  }
+  
+  .navbar-menu a:hover {
+    background: rgba(255, 255, 255, 0.2); /* Fundo leve ao passar o mouse */
+    color: #000; /* Texto preto para contraste */
+  }
+  
+  .navbar.scrolled .navbar-menu a {
+    color: white; /* Cor para links em navbar com fundo preto */
+  }
+  
+  .navbar.scrolled .navbar-menu a:hover {
+    background: rgba(255, 255, 255, 0.3); /* Fundo mais claro ao passar o mouse */
+    color: white; /* Texto continua branco */
+  }
+  
+  
